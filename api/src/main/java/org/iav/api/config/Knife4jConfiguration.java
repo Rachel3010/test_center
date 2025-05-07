@@ -27,4 +27,11 @@ public class Knife4jConfiguration {
                 ).
                 build();
     }
+    @Bean
+    public GroupedOpenApi tableInstanceAPI() {
+        return GroupedOpenApi.builder()
+                .group("表实例管理")
+                .pathsToMatch("/api/table-instances/**")
+                .build();
+    }
 }

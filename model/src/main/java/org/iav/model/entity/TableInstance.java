@@ -25,8 +25,8 @@ public class TableInstance implements Serializable {
     private String ecuSw;
 
     // date_submit字段，对应数据库的timestamp类型，在Java中用LocalDateTime表示
-    private LocalDateTime dateSubmit;
+    //private LocalDateTime dateSubmit;
 
     // date_update字段，对应数据库的timestamp类型，在Java中用LocalDateTime表示
-    private LocalDateTime dateUpdate;
+    //private LocalDateTime dateUpdate;
 }
